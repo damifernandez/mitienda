@@ -1,12 +1,13 @@
-import './styles/App.css';
-import NavBar from './components/NavBar'
+
+import NavAndWidgetCart from './components/NavAndWidgetCart';
 
 
 function App() {
   return (
-
-      <NavBar />
+  <>
+      <NavAndWidgetCart />
   
+  </>
   );
 }
 

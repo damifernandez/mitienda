@@ -3,7 +3,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(26, 26, 26);
+    background-color: rgb(223, 219, 21);
     
   }
   
@@ -17,12 +17,17 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    
-    color: rgb(250, 250, 250);
+    color: rgb(0, 0, 0);
   }
   
   /* cambia el color al posicionar el mouse */
   li a:hover {
-    background-color: rgb(241, 237, 2);
-    color: rgb(26, 26, 26);
+    background-color: rgb(26, 26, 26);
+    color: rgb(250, 250, 250);
+  }
+
+  .CartWidget{
+    align-content: right;
+    padding: 14px 16px;
+    float: right;
   }

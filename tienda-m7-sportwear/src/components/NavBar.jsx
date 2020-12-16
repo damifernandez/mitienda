@@ -1,17 +1,21 @@
 import './NavBar.css';
+import CartWidget from './CartWidget';
 
-function NavBar() {
+function NavBar({titulo, action}) {
     return(
-        <>
-        <h1>M7 SPORTWEAR</h1>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#Products">Productos</a></li>
-            <li><a href="#contact">Contacto</a></li>
-            <li><a href="#about">Nosotros</a></li>
-        </ul>
+        
+        <div>
+            <h1>{titulo}</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#Products">Productos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#about">Nosotros</a></li>
+                <CartWidget action={action} />
+            </ul>
+            
 
-        </>
+        </div>
     )
 
 }
