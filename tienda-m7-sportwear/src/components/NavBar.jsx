@@ -6,14 +6,15 @@ function NavBar({titulo, action}) {
         
         <div>
             <h1>{titulo}</h1>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#Products">Productos</a></li>
-                <li><a href="#contact">Contacto</a></li>
-                <li><a href="#about">Nosotros</a></li>
-                <CartWidget action={action} />
-            </ul>
-            
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#Products">Productos</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                    <li><a href="#about">Nosotros</a></li>
+                    <CartWidget action={action} />
+                </ul>
+            </nav>
 
         </div>
     )

@@ -3,10 +3,11 @@
   width: 20%;
   position: fixed;
   right: 0;
-  top: 0;
-  background: var(--blanco);
+  top: 120px;
+  background:  rgb(26, 26, 26);
   z-index: 2;
   box-shadow: -0.3rem 0 0.3rem rgba(0, 0, 0, 0.2);
+  color: white;
 }
 
 .close {

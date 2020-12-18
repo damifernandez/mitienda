@@ -1,0 +1,68 @@
+.productCard {
+  background: rgb(223, 219, 21);
+  border-radius: 1.5rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: box-shadow 0.5s;
+}
+
+.productCard:hover {
+  box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.25);
+}
+
+.productCard img {
+  width: 100%;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+}
+
+.productCard div {
+  padding: 1rem;
+  text-align: center;
+}
+
+.productCard div h3 {
+  color: var(--text);
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.productCard div p {
+  color: var(--text);
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.productCard div .contador {
+  width: 100%;
+  margin: 1.5rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.productCard div .contador button {
+  width: 20%;
+  border: none;
+  padding: 0.5rem;
+  outline: none;
+  cursor: pointer;
+  background: var(--color-principal);
+  border-radius: 1rem;
+  color: var(--blanco);
+  font-size: 1.5rem;
+}
+
+.productCard div .contador button:disabled {
+  background: #ddd;
+  cursor: no-drop;
+}
+
+.productCard div .contador input {
+  width: 60%;
+  text-align: center;
+  border: none;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 1.8rem;
+  outline: none;
+}
