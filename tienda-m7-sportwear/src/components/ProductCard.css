@@ -4,6 +4,7 @@
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
   cursor: pointer;
   transition: box-shadow 0.5s;
+  
 }
 
 .productCard:hover {
@@ -18,7 +19,8 @@
 
 .productCard div {
   padding: 1rem;
-  text-align: center;
+  box-align: center;
+  align-items: center;
 }
 
 .productCard div h3 {
@@ -34,10 +36,10 @@
 }
 
 .productCard div .contador {
-  width: 100%;
-  margin: 1.5rem 0;
+  width: 90%;
+  margin: 1rem 0;
   display: flex;
-  align-items: center;
+  
 }
 
 .productCard div .contador button {
@@ -66,3 +68,49 @@
   font-size: 1.8rem;
   outline: none;
 }
+
+.contentBotonCarrito{
+  
+  width: 100%;
+  margin: 1rem 0;
+
+}
+
+.agregarAlCarrito{
+  padding: 1rem;
+  width: 60%;
+  border: none;
+  border-radius: 10px;
+  border: 2px solid #161616;
+  color: rgb(29, 29, 29);
+  padding: 15px 32px;
+  background-color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  
+
+}
+.agregarAlCarrito:hover{
+  border: 2px solid #161616;
+  color: rgb(29, 29, 29);
+  background-color:rgb(223, 219, 21);
+  
+}
+
+.agregarAlCarrito:active {
+  background-color: rgb(26, 26, 26);
+  color: rgb(255, 255, 255);
+
+}
+
+p{
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+}
+
