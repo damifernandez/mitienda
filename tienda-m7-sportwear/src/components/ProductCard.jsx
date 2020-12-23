@@ -28,7 +28,7 @@ const ProductCard = ({titulo, precio}) => {
                 <p>${precio}</p>
                 <div className="contentBotonCarrito">
 
-                <button className="agregarAlCarrito" onclick={onAdd}>Agregar al Carrito</button>
+                <button className="agregarAlCarrito" onClick={onAdd}>Agregar al Carrito</button>
                 </div>
                 
             </div>
